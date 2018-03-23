@@ -1,4 +1,5 @@
 '''
+Linear discriminant analysis model
 from the n independent variables of your dataset LDA extracts p<=n new independent 
 variables that separate the most the classes of the dependent variable
 
