@@ -1,4 +1,4 @@
-
+#PCA ------unsupervised learning algorithm
 
 # Importing the libraries
 import numpy as np
@@ -27,7 +27,7 @@ from sklearn.decomposition import PCA
 #here we are including the 2 features(principle components) that expalin the variance most
 
 pca = PCA(n_components=2)
-X_train = pca.fit_transform(X_train)
+X_train = pca.fit_transform(X_train) #we need to include only X_train since it is an unsupervised learning algo
 X_test = pca.transform(X_test)
 
 #to look at the variance explained by each and every feature of our extracted feature from pca
